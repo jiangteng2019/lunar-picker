@@ -1,5 +1,7 @@
 ### 概述
 - lunar-picker 是一款微信小程序农历日期选择器组件，内部使用 picker-view 、picker-view-column 组件封装；涉及到农历日期的换算使用了calendar.js。
+![avatar](https://images.cnblogs.com/cnblogs_com/engeng/2086212/o_211228104352_lunar-picker1.png)
+![avatar](https://images.cnblogs.com/cnblogs_com/engeng/2086212/o_211228104227_lunar-picker2.png)
 
 ### 使用
 lunar-picker 的使用与微信官方 picker 日期选择器类似。
