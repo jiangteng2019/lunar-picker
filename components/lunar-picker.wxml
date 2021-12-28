@@ -1,0 +1,25 @@
+<view class="lunar_picker" wx:if="{{ show }}" bindtap="handleMaskTap">
+    <view class="content_container" catchtap="handleContentAreaTap">
+        <view class="options_container" >
+            <view bindtap="handleCancelTap">取消</view>
+            <view bindtap="handleConfirmTap" style="color: #0BC15F;">确定</view>
+        </view>
+
+        <picker-view class="picker_view" value="{{ valueArray }}" immediate-change="{{ true }}" catchtap="handleContentAreaTap" bindchange="handlePickerViewChange" indicator-class="indicator">
+            <picker-view-column class="picker_view_column">
+                <view class="column_item" wx:for="{{ lunarYear }}" wx:key="index">{{ item }}</view>
+            </picker-view-column>
+
+            <picker-view-column class="picker_view_column">
+                <view class="column_item" wx:for="{{ lunarMonth }}" wx:key="index">{{ item }}</view>
+            </picker-view-column>
+
+            <picker-view-column class="picker_view_column">
+                <view class="column_item" wx:for="{{ lunarDay }}" wx:key="index">{{ item }}</view>
+            </picker-view-column>
+        </picker-view>
+    </view>
+</view>
+<view bindtap="handleSlotTap">
+    <slot></slot>
+</view>
