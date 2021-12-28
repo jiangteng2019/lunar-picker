@@ -1,7 +1,8 @@
 ### 概述
 - lunar-picker 是一款微信小程序农历日期选择器组件，内部使用 picker-view 、picker-view-column 组件封装；涉及到农历日期的换算使用了calendar.js。
-![avatar](https://images.cnblogs.com/cnblogs_com/engeng/2086212/o_211228104352_lunar-picker1.png)
-![avatar](https://images.cnblogs.com/cnblogs_com/engeng/2086212/o_211228104227_lunar-picker2.png)
+
+<img src="https://images.cnblogs.com/cnblogs_com/engeng/2086212/o_211228104352_lunar-picker1.png)" width="320" height="560">
+<img src="https://images.cnblogs.com/cnblogs_com/engeng/2086212/o_211228104227_lunar-picker2.png)" width="320" height="560">
 
 ### 使用
 lunar-picker 的使用与微信官方 picker 日期选择器类似。
@@ -30,7 +31,7 @@ lunar-picker 的使用与微信官方 picker 日期选择器类似。
 
 属性名 | 类型 | 默认值 | 说明
 ---|---|---|---
-value | string | 当天 | 若不提供value或者提供格式有误，将使用当天的农历日期作为默认日期
+value | string | 当天 | 若不提供value或格式有误，将使用当天的农历日期作为默认日期
 bindchange | eventhandle | | 滚动触发的 change 事件
 bindconfirm | eventhandle | | 点击确定触发的 confirm 事件
 
