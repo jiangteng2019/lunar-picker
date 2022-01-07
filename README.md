@@ -4,7 +4,7 @@
 ![avatar](https://images.cnblogs.com/cnblogs_com/engeng/2086212/o_211229015214_lunar-picker1.png)
 
 ### 使用
-lunar-picker 的使用与微信官方 picker 日期选择器类似。
+lunar-picker 的使用与微信官方组件 picker 日期选择器类似。
 
 1. 将components、js文件夹下载到对应的项目目录
 2. 在需要使用农历日期选择器的页面json文件中 (**注意路径**)
