@@ -174,7 +174,7 @@ Component({
          */
         initYMD() {
             try {
-                let result = this.lunarDateStringToNumber(this.data._value);
+                let result = this.lunarDateStringToNumber(this.data.value);
                 if (result) {
                     const [yearNumber, monthNumber, leap] = result;
                     let lunarMonth = this.getMonths(yearNumber);
@@ -184,7 +184,7 @@ Component({
                         lunarDay: lunarDay
                     });
                     // 计算索引的位置
-                    const [a, b, c, d] = this.data._value.split(' ');
+                    const [a, b, c, d] = this.data.value.split(' ');
                     let yearIndex = this.data.lunarYear.indexOf(`${a} ${b}`);
                     let monthIndex = this.data.lunarMonth.indexOf(c);
                     let dayIndex = this.data.lunarDay.indexOf(d);
